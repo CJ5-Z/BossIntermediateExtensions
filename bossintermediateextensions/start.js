@@ -194,7 +194,7 @@ exports.initialize = (modPath) => {
         employeeTypeName:Enums.EmployeeTypeNames.LeadDeveloper,
         type: ComponentTypes.Module,
         requirements: {
-            'uicompatabilitycomponent': 1,
+            'uicompatibilitycomponent': 1,
             'fulluiset': 1,
             'ResponsiveUi': 1,
             "beginnerdesignermodule": 1
