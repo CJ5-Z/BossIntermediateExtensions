@@ -379,7 +379,7 @@ exports.initialize = (modPath) => {
         "intermediatedesignermodule": 1
     }
 
-    //Updated feature recipes
+    //NO REQUIRED FEATURE RECIPE UPDATES
     
     //Localizor and Load
     exports.onLoadGame = settings => {
@@ -387,25 +387,25 @@ exports.initialize = (modPath) => {
         $rootScope = GetRootScope();
         if($rootScope.options.language === "en"){
             //Developer
-            Language['sendercomponent'] = "Sender Component";
-            Language['condensedcomponent'] = "Condensed Component";
-            Language['userinteractioncomponent'] = "User Interaction Component";
-            Language['serverinteractioncomponent'] = "Server Interaction Component";
+            Language['sendercomponent'] = "Sender Component"; //Graphics done
+            Language['condensedcomponent'] = "Condensed Component"; //Graphics Done
+            Language['userinteractioncomponent'] = "User Interaction Component"; //Graphics Done
+            Language['serverinteractioncomponent'] = "Server Interaction Component"; //Graphics Done
             //Designer
-            Language['uicompatibilitycomponent'] = "UI Compatibility Component";
-            Language['devdescompatibilitycomponent'] = "Dev-Des Compatibility Component";
-            Language['fulluiset'] = "Full UI Set";
+            Language['uicompatibilitycomponent'] = "UI Compatibility Component"; //Graphics Done
+            Language['devdescompatibilitycomponent'] = "Dev-Des Compatibility Component"; //Graphics Done
+            Language['fulluiset'] = "Full UI Set"; //Graphics Done
             //SysAdmin
-            Language['servermonitorcomponent'] = "Server Monitor Component";
-            Language['serverconnectioncomponent'] = "Server Connection Component";
-            Language['intermediatesysset'] = "Intermediate SysSet";
+            Language['servermonitorcomponent'] = "Server Monitor Component"; //Graphics Done
+            Language['serverconnectioncomponent'] = "Server Connection Component"; //Graphics Done
+            Language['intermediatesysset'] = "Intermediate SysSet"; //Graphics Done
             //Lead Developer
-            Language['userconnectionmodule'] = "User Connection Module";
-            Language['interactablemodule'] = "Interactable Module";
-            Language['constantfixesmodule'] = "Constant Fixes Module";
-            Language['sustainingmodule'] = "Sustaining Module";
-            Language['serverstrengthmodule'] = "Server Strength Module";
-            Language['intermediatedesignermodule'] = "Intermediate Designer Module";
+            Language['userconnectionmodule'] = "User Connection Module"; //Graphics Done
+            Language['interactablemodule'] = "Interactable Module"; //Graphics Done
+            Language['constantfixesmodule'] = "Constant Fixes Module"; //Graphics Done
+            Language['sustainingmodule'] = "Sustaining Module"; //Graphics Done
+            Language['serverstrengthmodule'] = "Server Strength Module"; //Graphics Done
+            Language['intermediatedesignermodule'] = "Intermediate Designer Module"; //Graphics Done
         }
     }
 }
