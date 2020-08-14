@@ -216,7 +216,7 @@ exports.initialize = (modPath) => {
     ResearchItems.find(item => item.name == ResearchItemNames.IntermediateSysAdminKit).unlocks.push(
         ComponentNames.ServerMonitorComponent,
         ComponentNames.ServerConnectionComponent,
-        IntermediateSysSet
+        ComponentNames.IntermediateSysSet
     )
     ResearchItems.find(item => item.name == ResearchItemNames.IntermediateLeadDevkit).unlocks.push(
         ComponentNames.UserConnectionModule,
