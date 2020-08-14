@@ -196,7 +196,7 @@ exports.initialize = (modPath) => {
         requirements: {
             'uicompatabilitycomponent': 1,
             'fulluiset': 1,
-            'ResponsiveUI': 1,
+            'ResponsiveUi': 1,
             "beginnerdesignermodule": 1
         }
     });
@@ -236,7 +236,7 @@ exports.initialize = (modPath) => {
         "csscomponent": 2,
         "uicompatibilitycomponent": 1
     }
-    Components.find(component => component.name == ComponentNames.ResponsiveUI).requirements = 
+    Components.find(component => component.name == ComponentNames.ResponsiveUi).requirements = 
     {
         "WireframeComponent": 2,
         "UiElement": 2,
